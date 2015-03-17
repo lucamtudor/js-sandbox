@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-2.1.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!--<script src="js/quizzes/relationshipsQuiz.js"></script>-->
+    <!--<script src="js/quizzes/astronautsArray.js"></script>-->
+    <!--<script src="js/quizzes/psiQuiz.js"></script>-->
+    <!--<script src="js/canvas-crazy.js"></script>-->
+    <title>js-sandbox</title>
+</head>
+<body>
+
+<canvas id="canvas" width="500px" height="400px"></canvas>
+
+<script>
+    var c = document.getElementById("canvas");
+    var ctx = c.getContext("2d");
+
+    //    ctx.fillRect(100, 100, 100, 100);
+    //    ctx.strokeRect(50, 50, 50, 50);
+    //    ctx.clearRect(75, 75, 75, 75);
+    //
+    //    ctx.beginPath();
+    //    ctx.moveTo(100, 100);
+    //    ctx.lineTo(125, 100);
+    //    ctx.lineTo(150, 150);
+    //    ctx.lineTo(100, 125);
+    //    ctx.lineTo(100, 100);
+    //    //    ctx.stroke();
+    //
+    //    ctx.fill();
+    //
+    //    ctx.strokeRect(200, 200, 100, 100);
+    //    ctx.moveTo(225, 225);
+    //    ctx.lineTo(275, 225);
+    //    ctx.lineTo(275, 275);
+    //    ctx.lineTo(225, 225);
+    //    ctx.fill();
+
+    ctx.font = "36pt Impact";
+    ctx.textAlign = "center";
+
+    ctx.fillStyle = "white";
+    ctx.fillText("CANVAS MEMES", c.width / 2, 40);
+
+    ctx.strokeStyle = "black";
+    ctx.lineWidth = 3;
+    ctx.strokeText("CANVAS MEMES", c.width / 2, 40);
+
+    //    image.src = "https://imgflip.com/s/meme/Futurama-Fry.jpg";
+</script>
+
+</body>
+</html>
